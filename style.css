@@ -59,6 +59,7 @@ main{
     background-color: black;
     border-radius: 70px;
     margin: 15px;
+    width: 20vw;
 }
 .fa-solid, .fa-download{
     color: var(--text-header-footer);
