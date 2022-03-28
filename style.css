@@ -25,14 +25,14 @@ header{
     background-color: #606060;
 }
 .contents p{
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: limegreen;
     font-family: arial;
     text-shadow: 2px 2px 42px cadetblue;
 }
 .logo span a{
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2em;
     color: var(--text-header-footer);
     font-family: monospace;
     text-shadow: 2px 2px 4px cadetblue;
@@ -47,7 +47,7 @@ main{
     width: 24vw;
 }
 .songs p{
-    font-size: 1.3rem;
+    font-size: 1.3em;
     margin: 10px 15px;
     display: block;
     font-weight: bold;
@@ -75,5 +75,17 @@ footer{
 footer p{
     color: var(--text-header-footer);
     font-family: monospace;
-    font-size: 1rem;
+    font-size: 1em;
+}
+@media only screen and (max-width: 600px){
+.songs{
+    width: 100vw;
+}
+.songs audio{
+    width: 90vw;
+}
+
+
+
+
 }
