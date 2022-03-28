@@ -1,0 +1,79 @@
+:root{
+    --theme-color: #4d4f5e;
+    --text-header-footer: #4ef4c0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ==================header==================== */
+header{
+    box-shadow: 0px 0px 20px 10px var(--theme-color);
+}
+.logo{
+    background-color: var(--theme-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+}
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #606060;
+}
+.contents p{
+    font-size: 1.5rem;
+    color: limegreen;
+    font-family: arial;
+    text-shadow: 2px 2px 42px cadetblue;
+}
+.logo span a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--text-header-footer);
+    font-family: monospace;
+    text-shadow: 2px 2px 4px cadetblue;
+}
+/* ===============main================= */
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.songs{
+    border: 2px solid black;
+    width: 24vw;
+}
+.songs p{
+    font-size: 1.3rem;
+    margin: 10px 15px;
+    display: block;
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: underline;
+}
+.songs audio{
+    box-shadow: 0px 0px 12px 0px black;
+    background-color: black;
+    border-radius: 70px;
+    margin: 15px;
+}
+.fa-solid, .fa-download{
+    color: var(--text-header-footer);
+    text-shadow: 1px 1px 4px black;
+}
+/* =============footer============= */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--theme-color);
+    box-shadow: 0px 0px 20px 10px var(--theme-color);
+}
+footer p{
+    color: var(--text-header-footer);
+    font-family: monospace;
+    font-size: 1rem;
+}
